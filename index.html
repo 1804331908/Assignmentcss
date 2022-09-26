@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingmentcss</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        .main_section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 30px;
+
+        }
+
+        .logo_div img {
+            width: 100px;
+        }
+
+        .menu_div ul {
+            display: flex;
+        }
+
+        .menu_div ul li {
+            list-style-type: none;
+            padding: 0 20px;
+        }
+
+        .menu_div ul li a {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .menu_div ul li a:hover {
+            color: black;
+            cursor: pointer;
+            border-bottom: 3px solid black;
+            transition: 0.3s;
+        }
+
+        button {
+            background-color: #FFD8DB;
+            border-radius: 15px;
+            border: none;
+            width: 100px;
+            height: 40px;
+            color: #A389CC;
+        }
+
+        .content_div {
+            display: flex;
+            margin: 20px;
+
+        }
+
+        .maincontent_div {
+            width: 50%;
+            padding-left: 120px;
+        }
+
+        .img_div {
+            width: 50%;
+        }
+
+        .img_div img {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 60px;
+            font-family: poppins;
+        }
+
+        p {
+            font-size: 16px;
+            font-family: poppins;
+            color: grey;
+        }
+
+        .button2_div {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            justify-content: space-between;
+            width: 300px;
+        }
+
+        .button2_div button {
+            background-color: #5243C0;
+            color: white;
+            border: none;
+            width: 145px;
+            height: 52px;
+            border-radius: 25px;
+        }
+
+        .box_div, .box2_div, .box3_div, .box4_div {
+            background-image: url(./tick-gray.png);
+            background-position: left center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 400px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px -1px grey;
+            background-color: rgb(247, 233, 233);
+            margin-bottom: 10px;
+
+        }
+
+        .box_div:hover, .box2_div:hover,.box3_div:hover,.box4_div:hover {
+            background-color: white;
+            background-image: url(./tick-blue.png);
+        }
+
+        .point_div {
+            border-radius: 5px;
+            width: 20px;
+            height: 10px;
+            background-color: pink;
+            margin-right: 10px;
+
+        }
+
+        .box_div p {
+            padding-left: 40px;
+            color: black;
+        }
+        
+        .box2_div p {
+            padding-left: 40px;
+            color: black;
+        }
+        
+        .point2_div {
+            border-radius: 5px;
+            width: 20px;
+            height: 10px;
+            background-color: #FD6534;
+            margin-right: 10px;
+
+        }
+        
+        .box3_div p {
+            padding-left: 40px;
+            color: black;
+        }
+        
+        .point3_div {
+            border-radius: 5px;
+            width: 20px;
+            height: 10px;
+            background-color: #9ED095;
+            margin-right: 10px;
+
+        }
+        
+        .box4_div p {
+            padding-left: 40px;
+            color: black;
+        }
+        
+        .point4_div {
+            border-radius: 5px;
+            width: 20px;
+            height: 10px;
+            background-color: #FFE4A0;
+            margin-right: 10px;
+        }
+
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="main_section">
+        <div class="logo_div">
+            <img src="./stunning-logo.png" alt="logo">
+        </div>
+        <div class="menu_div">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Jobs</a></li>
+            </ul>
+        </div>
+        <div class="button_div">
+            <button>Your Account</button>
+        </div>
+    </div>
+    <div class="content_div">
+        <div class="maincontent_div">
+            <div>
+                <h1>Stunning Workplace.</h1>
+            </div>
+            <div>
+                <p>With stunning, remote teams can organize projects. manage shifting priorities, and get work done.</p>
+            </div>
+            <div class="button2_div">
+                <button>New Button</button>
+                <img src="./arrow-up.png" alt="up">
+                <img src="./arrow-down.png" alt="down">
+            </div>
+            <div class="box_div">
+                <p>Dmm design</p>
+                <img style="margin-left: 22px;" src="./user-pink.png" alt="user">
+                <p style="color: grey;">20 Dec</p>
+                <div class="point_div"></div>
+            </div>
+            <div class="box2_div">
+                <p>Blurr animation</p>
+                <img src="./user-orange.png" alt="user">
+                <p style="color: grey;">22 Dec</p>
+                <div class="point2_div"></div>
+            </div>
+            <div class="box3_div">
+                <p>Illustration</p>
+                <img style="margin-left: 42px;" src="./user-blue.png" alt="user">
+                <p style="color: grey;">26 Dec</p>
+                <div class="point3_div"></div>
+            </div>
+            <div class="box4_div">
+                <p>Refunds</p>
+                <img style="margin-left: 58px;" src="./user-red.png" alt="user">
+                <p style="color: grey;">28 Dec</p>
+                <div class="point4_div"></div>
+            </div>
+        </div>
+        <div class="img_div">
+            <img src="./landing-section-image.png" alt="man">
+        </div>
+    </div>
+</body>
+
+</html>
